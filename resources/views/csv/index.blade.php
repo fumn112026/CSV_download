@@ -21,6 +21,7 @@
   </table>
 
   <form action="/" method="post">
+    @csrf
     <input type="submit" value="CSV形式でダウンロード">
   </form>
 </body>
